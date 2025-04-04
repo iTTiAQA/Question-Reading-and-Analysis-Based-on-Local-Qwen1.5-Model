@@ -108,6 +108,3 @@ model = AutoModelForCausalLM.from_pretrained(
 ```
 
 > 商业用途需联系阿里云授权：license@alibabacloud.com
-```
-
----
