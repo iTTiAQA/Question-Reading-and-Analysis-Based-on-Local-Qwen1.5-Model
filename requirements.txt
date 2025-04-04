@@ -1,0 +1,25 @@
+# 基础环境
+torch>=2.0.0
+transformers>=4.36.0
+
+# 屏幕捕获相关
+dxcam>=1.1.0
+opencv-python>=4.5.0
+pyautogui>=0.9.0
+pygetwindow>=0.0.9
+keyboard>=0.13.5
+
+# OCR相关
+paddleocr>=2.6.0.3  # 或替换为您使用的OCR引擎
+Pillow>=9.0.0
+
+# 投屏控制
+scrcpy>=2.0  # 需单独安装客户端，此处仅为占位提示
+
+# 其他工具
+numpy>=1.21.0
+tqdm>=4.60.0  # 可选，用于进度显示
+
+# 开发环境（可选）
+black>=22.0  # 代码格式化
+pylint>=2.12.0  # 代码检查
